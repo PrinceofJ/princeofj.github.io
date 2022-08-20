@@ -5,7 +5,7 @@ import getProjectTechStyles from "./projectTechStyling";
 
 // sections that show up and get highlighted in the nav bar
 export const pageSections = [
-  { name: "Nathen", to: "#", active: true, lgInvisible: false },
+  { name: "Jackson", to: "#", active: true, lgInvisible: false },
   { name: "About", to: "#about", active: false, lgInvisible: false },
   { name: "Experience", to: "#experience", active: false, lgInvisible: true },
   { name: "Skills", to: "#skills", active: false, lgInvisible: true },
@@ -18,41 +18,41 @@ export const pageSections = [
 export const navIconLinks = [
   {
     icon: faGithub,
-    link: "https://github.com/Nathen-Smith",
+    link: "https://github.com/PrinceofJ",
     mobileInvisible: false,
   },
   {
     icon: faLinkedinIn,
-    link: "https://www.linkedin.com/in/nathens/",
+    link: "https://www.linkedin.com/in/jackson-matsumura-b627a0137/",
     mobileInvisible: true,
   },
   {
     icon: faEnvelope,
-    link: "mailto:nathencsmith@gmail.com",
+    link: "mailto:jackson.matsumura@gmail.com",
     mobileInvisible: true,
   },
 ];
 
 // items to show up on the left side of the nav bar when in mobile view
 export const mobileLeftItems = [
-  { name: "Nathen Smith", to: "#", className: "font-bold" },
+  { name: "Jackson Matsumura", to: "#", className: "font-bold" },
 ];
 
 export const Intro = () => {
   return (
     <div className="grid grid-cols-2 h-screen">
       <div className="sm:justify-center flex flex-col text-left mt-10 sm:-mt-28">
-        <div className="text-9xl text-black dark:text-white">Hi.</div>
+        <div className="text-9xl text-black dark:text-white">Hello.</div>
         <div className="text-3xl text-black dark:text-white">
-          I'm Nathen Smith.
+          I'm Jackson Matsumura.
         </div>
         <br />
         <div className="text-gray-800 dark:text-gray-300 text-lg">
-          <div>Experienced Full Stack Developer.</div>
-          <div>UIUC Computer Engineer.</div>
-          <div>React, Python, and TypeScript Enthusiast.</div>
-          <div>Fish shell-er.</div>
-          <div>Badminton Player.</div>
+          <div>Computer Science Student.</div>
+          <div>Unity Developer.</div>
+          <div>Java, Python, and C# Enthusiast.</div>
+          <div>Card Game Enthusiast.</div>
+          <div>Soto-Zen Buddhist.</div>
         </div>
         <br />
         <a
